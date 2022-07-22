@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ang">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="final.css" />
+    <link
+      rel="icon"
+      href="data:image/jpeg;base64,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"
+    />
+    <title>Warsaw pact</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h2><a href="#" class="logo">For Peace And Socialism</a></h2>
+      <ul>
+        <li><a href="" class="active">home</a></li>
+        <li><a href="page2.html">Member states</a></li>
+        <li><a href="page3.html">History</a></li>
+        <li><a href="page4.html">Apply for Comecon</a></li>
+        <li><a href="page5.html">about</a></li>
+      </ul>
+    </header>
+    <section class="main">
+      <img src="stars.png" alt="check your browser" id="stars" />
+      <img src="moon.png" alt="check your browser" id="moon" />
+      <h2 id="douz">Warsaw pact</h2>
+      <img src="hammer.png" alt="check your browser" id="amazigh" />
+      <img
+        src="mountains.png"
+        alt="check your browser"
+        id="mountains3"
+      />
+      <img
+        src="mountains2.png"
+        alt="check your browser"
+        id="mountains4"
+      />
+      <img src="ground.png" alt="check your browser" id="river" />
+      <img src="hand.png" alt="check your browser" id="boat" />
+      <img
+        src="mntn.png"
+        alt="check your browser"
+        id="mountains7"
+      />
+    </section>
+    <div class="content">
+      <p>
+        The Warsaw Pact (WP) or Treaty of Warsaw, formally the Treaty of Friendship, Cooperation and Mutual Assistance, was a collective defense treaty signed in Warsaw, Poland, between the Soviet Union and seven other Eastern Bloc socialist republics of Central and Eastern Europe in May 1955. <br> <br> during the Cold War. The term "Warsaw Pact" commonly refers to both the treaty itself and its resultant defensive alliance, the Warsaw Treaty Organization (WTO). <br> <br> The Warsaw Pact was the military complement to the Council for Mutual Economic Assistance (Comecon), the regional economic organization for the socialist states of Central and Eastern Europe. <br><br> The Warsaw Pact was created in reaction to the integration of West Germany into the North Atlantic Treaty Organization (NATO) in 1955 as per the London and Paris Conferences of 1954. <br><br>Dominated by the Soviet Union, the Warsaw Pact was established as a balance of power or counterweight to NATO. <br> <br> There was no direct military confrontation between the two organizations; instead, the conflict was fought on an ideological basis and through proxy wars. <br><br> Both NATO and the Warsaw Pact led to the expansion of military forces and their integration into the respective blocs. <br><br> Its largest military engagement was the Warsaw Pact invasion of Czechoslovakia in August 1968 (with the participation of all Pact nations except Albania and Romania), which, in part, resulted in Albania withdrawing from the Pact less than a month later. <br> <br> The Pact began to unravel with the spread of the Revolutions of 1989 through the Eastern Bloc, beginning with the Solidarity movement in Poland, its electoral success in June 1989 and the Pan-European Picnic in August 1989.
+      </p>
+    </div>
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://www.freiheit.org/sites/default/files/styles/facebook_share/public/2021-06/957419.jpg?itok=CramjAh9"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.historytoday.com/sites/default/files/warsawpact.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://ichef.bbci.co.uk/news/976/cpsprodpb/12DC0/production/_109984277_16d3b447-667b-487f-b101-0d84ffe63d50.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3bb7c747-20e6-412c-bd48-7d02131c61ab/deaa73j-10a62727-e6ef-4d74-adb2-f3c942fac884.png/v1/fill/w_1088,h_734,q_70,strp/flag_of_warsaw_pact_by_psycosid09_deaa73j-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTE5NSIsInBhdGgiOiJcL2ZcLzNiYjdjNzQ3LTIwZTYtNDEyYy1iZDQ4LTdkMDIxMzFjNjFhYlwvZGVhYTczai0xMGE2MjcyNy1lNmVmLTRkNzQtYWRiMi1mM2M5NDJmYWM4ODQucG5nIiwid2lkdGgiOiI8PTE3NzEifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.4nQqcIaio1N5a6_iKjgCJ5E1Yvte0W4y6Yv1NBKqUdE"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <script src="final.js"></script>
+  </body>
+</html>
